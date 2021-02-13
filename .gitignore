@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -127,4 +127,4 @@ dist
 
 # TernJS port file
 .tern-port
->>>>>>> 502fb99c012002e7b096b2f90e784ffeeb37fecc
+
