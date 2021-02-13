@@ -4,8 +4,15 @@ export default class SigninPage extends Component {
     render() {
         return (
             <div>
-                <h1>Hello! Please Sign In Here!</h1>
+                <form className="form"> 
+                    <label>Please Sign-In Here!</label><br/>
+                    <input placeholder="Username"></input><br/>
+
+                    <input placeholder="Password"></input><br/>
+                    <button>Sign-In!</button>
+                </form>
             </div>
+
         )
     }
 }
