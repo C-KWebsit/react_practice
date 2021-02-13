@@ -25,18 +25,28 @@ export default class Exercise1 extends Component {
                 Exercise 1: Create a component that will hold 2 buttons 
                 Expected functionality: the buttons should change the background color of the containing div. (i.e. button1 will make the background blue, button 2 will make the background red)
                 store the div background color as a state which can be toggled on click event
+                
                 <button
                     onClick={()=> this.handleColorChange("#4F6D7A")}//call back function AND THEN call the handleChange function...pass one paramater as the color you would like!  CALL BACK FUNCTION IS NECESSARY HERE!!!!!
-                    
+                     //syntax for when calling a function from INSIDE the scope of this component
                     className="exercise-1-button"> 
                     Change to Blue!</button><br/>
+                
                 <button
                     onClick={() => this.handleColorChange("#9A031E")} //call back function AND THEN call the handleChange function...pass one paramater as the color you would like!  CALL BACK FUNCTION IS NECESSARY HERE!!!!!
+                     //syntax for when calling a function from INSIDE the scope of this component
                  className="exercise-1-button">Change to Red!</button><br/>
+                
                  <button
                     onClick={() => this.handleColorChange("#C5C392")}//call back function AND THEN call the handleChange function...pass one paramater as the color you would like!  CALL BACK FUNCTION IS NECESSARY HERE!!!!!
+                    //syntax for when calling a function from INSIDE the scope of this component
                   className="exercise-1-button">Back to Default! 
-                 </button>
+                 </button><br/>
+                 
+                 <button
+                    onClick={this.props.handleColorChange} //syntax for when calling a function from OUTSIDE the scope of this component
+                    className="exercise-1-button"> Change Main Background Color!
+                 </button> 
                 </div>
             </div>
         )
