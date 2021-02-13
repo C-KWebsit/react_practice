@@ -45,3 +45,8 @@
   text-justify: center;
 
 }
+
+.nav-link { 
+  margin-left: 10px;
+  color: black;
+}
