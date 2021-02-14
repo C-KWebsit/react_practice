@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Exercise1 from './Exercise1.js';
+import Exercise2 from './Exercise2.js'
 
 export default class Playground extends Component {
     state = { //here we set the initial state of our Playground background color to a pink color...we want this to change
@@ -22,6 +23,7 @@ export default class Playground extends Component {
                 <h1>Welcome to Our Playground!</h1>
                     <Exercise1 //here we are sending the handleColorChange call back function as a prop...we defined setState to yellow
                         handleColorChange={this.handleColorChange}/>   
+                    <Exercise2/>
             </div>
         )
     }
