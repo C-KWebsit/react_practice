@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Exercise1 from './Exercise1.js';
 import Exercise2 from './Exercise2.js'
 import Exercise3 from './Exercise3.js';
+import Exercise4 from './Exercise4.js';
 
 export default class Playground extends Component {
     state = { //here we set the initial state of our Playground background color to a pink color...we want this to change
@@ -26,6 +27,7 @@ export default class Playground extends Component {
                         handleColorChange={this.handleColorChange}/>   
                     <Exercise2/>
                     <Exercise3/>
+                    <Exercise4/>
             </div>
         )
     }
