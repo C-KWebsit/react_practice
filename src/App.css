@@ -72,11 +72,12 @@
   padding-right: 20px;
   border: 4px solid black;
 }
-.exercise-1-button, exercise-2-button { 
+.exercise-1-button, exercise-2-button, exercise-3-button{ 
+  
   margin-top: 40px;
 }
 
-.exercise-box2 { 
+.exercise-box2, .exercise-box3 { 
   width: 400px;
   height: 400px;
   align-items: center;
@@ -87,4 +88,8 @@
   padding-right: 20px;
   border: 4px solid black;
 
+}
+
+.exercise-3-button{ 
+  margin-top: 40px;
 }

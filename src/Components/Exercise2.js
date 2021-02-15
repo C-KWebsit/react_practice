@@ -40,7 +40,7 @@ export default class Exercise2 extends Component {
                     Submit!
                     </button>
                 </form>
-                 <h3 style={{color:"blue"}}>Your string says: {this.state.finalInput}</h3>
+                 <h3 style={{color:"blue"}}>{this.state.finalInput}</h3>
                 </div>
                
                 
