@@ -26,14 +26,36 @@ We will use local storage to store and retrieve the user information which will 
     
     ### Exercise 1:
         - Create a component that will hold 2 buttons 
-            Expected functionality: the buttons should change the background color of the containing div. (i.e. button1 will make the background blue, button 2 will make the background red)
-            store the div background color as a state which can be toggled on click event
+            Expected functionality: the buttons should change the 
+            background color of the containing div. 
+            (i.e. button1 will make the background blue, button 2 will make the background red)
+            store the div background color as a state 
+            which can be toggled on click event
     
-    ### Exercise 2
-        - Create a component that will accept user input as a field when the user clicks a submit button populate that text in the component with Blue text
+    ### Exercise 2:
+        - Create a component that will accept user input as a field when 
+        the user clicks a submit button populate that text in 
+        the component with Blue text
     
-    ### Exercise 3
-        - Create a component that will provide the user with a drop down menu of colors. once the user selects a color change the background color of the containing div 
+    ### Exercise 3:
+        - Create a component that will provide the user with a drop down menu of colors. 
+        once the user selects a color change the background color of the containing div 
 
-    ### Exercise 4
-        - Create an component that contains 3 radio buttons and a submit button. Each option can be a topic of your choice. when the user clicks the submit button print the selection to the div.
+    ### Exercise 4:
+        - Create an component that contains 3 radio buttons and a submit button. 
+        Each option can be a topic of your choice. 
+        When the user clicks the submit button print the selection to the div.
+
+    ### Exercise 5:
+        - Create a component that will provide the user with a drop down menu of colors. 
+        once the user selects a color change the background color of the Parent component. 
+
+    ### Exercise 6:
+        - Create a component that will provide the user with three radio buttons and a submit button. 
+        once the user selects a radio button, change the background color of the parent component.
+
+    ### Exercise 7:
+        - Create a component that will accept user input as a field when 
+        the user clicks a submit button populate that text in the parent component.
+
+     
