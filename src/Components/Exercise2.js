@@ -4,7 +4,8 @@ export default class Exercise2 extends Component {
     state = {
 
         currenInput: '',
-        finalInput : ''
+        finalInput : '',
+        color: "#9D79BC"
     
     }
 
@@ -25,7 +26,7 @@ export default class Exercise2 extends Component {
     render() {
         return (
             <div>
-                <div className="exercise-box2">
+                <div className="exercise-box2" style={{backgroundColor: this.state.color}}>
                 Exercise 2: Create a component that will accept user input as a field when the user clicks a submit button populate that text in the component with Blue text.<br/>
                 <form>
                     <input
