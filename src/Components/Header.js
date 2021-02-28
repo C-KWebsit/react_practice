@@ -23,6 +23,12 @@ export default withRouter (class Header extends Component {
                     PlayGround!
                 </NavLink>
                 }
+                 {
+                    this.props.location.pathname !== '/playground2'
+                        && <NavLink exact activeClassName="selected" to="/playground2" className="nav-link">
+                    PlayGround Number Two!
+                </NavLink>
+                }
                 <h1>Cici and Kyle React Playground!</h1>
             </div>
         )

@@ -9,6 +9,7 @@ import SigninPage from './Components/SigninPage';
 import RegisterPage from './Components/RegisterPage';
 import PlayGround from './Components/Playground'
 import Header from './Components/Header';
+import Playground2 from './Components/Playground2';
 
 export default class App extends Component {
     render() {
@@ -31,6 +32,11 @@ export default class App extends Component {
                             path="/playground" 
                             exact
                             render={(routerProps) => <PlayGround {...routerProps} />} 
+                        />
+                        <Route 
+                            path="/playground2" 
+                            exact
+                            render={(routerProps) => <Playground2 {...routerProps} />} 
                         />
                     </Switch>
                 </Router>

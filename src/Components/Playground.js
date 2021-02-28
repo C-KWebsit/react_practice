@@ -71,7 +71,7 @@ export default class Playground extends Component {
                         handleFinalButtonChange={this.handleFinalButtonChange}/>
                     <Exercise7
                     handleUserSubmission={this.handleUserSubmission}/>
-                    <p>{this.state.userInput}</p>
+                    <p className="hidden-message">{this.state.userInput}</p>
             </div>
         )
     }
